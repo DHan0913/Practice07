@@ -5,9 +5,7 @@ public abstract class Bird {
 
     
     
-    public Bird(){     
-		
-	}
+
     public abstract void setName(String name);
     public abstract String getName();
     public abstract void sing();

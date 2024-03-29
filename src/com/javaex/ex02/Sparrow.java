@@ -3,9 +3,6 @@ package com.javaex.ex02;
 public class Sparrow extends Bird {
 	private String name;
 	
-	public Sparrow(){     
-		
-	}
 	
 	@Override
 	public void setName(String name) {

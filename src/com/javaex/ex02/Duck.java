@@ -3,9 +3,7 @@ package com.javaex.ex02;
 public class Duck extends Bird {
 	private String name;
 	
-	public Duck(){     
-		
-	}
+
 	
 	@Override
 	public void setName(String name) {

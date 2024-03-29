@@ -2,9 +2,7 @@ package com.javaex.ex02b;
 
 public class Sparrow extends Bird {
 	
-	public Sparrow(){     
-		
-	}
+
 	
 	@Override
 	public void setName(String name) {
