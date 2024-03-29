@@ -10,6 +10,9 @@ public class Ractangle extends Shape{
 		this.width=width;
 		this.height=height;
 	}
+	public int getWidth() {
+		return width;
+	}
 	
 	@Override
 	public void draw(){
@@ -19,7 +22,7 @@ public class Ractangle extends Shape{
 	}
 	@Override
 	public void showInfo(){
-		System.out.println(width);
+		
 	}
 		
 
