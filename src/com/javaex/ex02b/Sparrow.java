@@ -1,4 +1,4 @@
-package com.javaex.ex02;
+package com.javaex.ex02b;
 
 public class Sparrow extends Bird {
 	private String name;
@@ -12,10 +12,6 @@ public class Sparrow extends Bird {
 		this.name = name;
 		}
 	
-	@Override
-    public String getName() {
-    	return name;
-    }
 		
 	@Override
     public void sing() {

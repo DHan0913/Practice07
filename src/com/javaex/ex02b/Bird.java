@@ -1,7 +1,7 @@
-package com.javaex.ex02;
+package com.javaex.ex02b;
 
 public abstract class Bird {
-    private String name;
+    protected String name;
 
     
     
@@ -9,7 +9,6 @@ public abstract class Bird {
 		
 	}
     public abstract void setName(String name);
-    public abstract String getName();
     public abstract void sing();
     public abstract void fly();
     public abstract void showName();
