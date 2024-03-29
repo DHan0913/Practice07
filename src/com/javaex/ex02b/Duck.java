@@ -1,7 +1,6 @@
 package com.javaex.ex02b;
 
 public class Duck extends Bird {
-	private String name;
 	
 	public Duck(){     
 		
